@@ -1,0 +1,67 @@
+/* login.css */
+
+body {
+    background-image: url('assets/peakpx.jpg');
+    /* Menetapkan gambar latar belakang */
+    background-size: cover;
+    /* Menyesuaikan gambar agar selalu memenuhi area latar belakang */
+    background-repeat: no-repeat;
+    /* Mencegah gambar latar belakang diulang */
+    color: #ffffff;
+    /* Mengatur warna teks menjadi putih */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Menggunakan flexbox untuk memposisikan konten */
+    align-items: center;
+    /* Mengatur konten ke tengah secara vertikal */
+    justify-content: center;
+    /* Mengatur konten ke tengah secara horizontal */
+    height: 100vh;
+    /* Mengatur tinggi halaman menjadi 100% dari viewport */
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Menambahkan transparansi hitam untuk efek blur */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Menambahkan bayangan lembut */
+    max-width: 400px;
+    /* Menentukan lebar maksimum */
+    width: 100%;
+    /* Menyesuaikan lebar dengan konten */
+    margin: auto;
+    /* Posisikan di tengah secara horizontal */
+}
+
+h1 {
+    color: #ffffff;
+}
+
+label {
+    color: #ffffff;
+    /* Mengatur warna label menjadi putih */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    /* Lebar input dikurangi padding */
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
